@@ -148,11 +148,3 @@ Cons:
 . Operational complexity 
 
 . Overkill for simple use cases 
-## Aggregation Process
-**What is Log Aggregation?** 
-
-Log aggregation is the process of collecting logs from multiple services, machines, or containers and storing them in a single, centralized location for monitoring, debugging, and analysis. 
-
-Now there are basically two ways to aggregate the logs in a central machine:
-## Process - 1: Without a local logging agent
-First we have to know how logging works. So basically in our system
