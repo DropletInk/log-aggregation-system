@@ -98,7 +98,7 @@ Example: journalctl CONTAINER_NAME=service-a -f
 
 ``Log flow: Container -> journald -> journalctl`` 
 
-## 3. syslog (Network Forwarding): 
+### 3. syslog (Network Forwarding): 
 
 Syslog is a standard protocol for message logging, allowing network devices, servers, and applications to generate, store, and analyze event logs centrally. 
 
@@ -155,4 +155,4 @@ Log aggregation is the process of collecting logs from multiple services, machin
 
 Now there are basically two ways to aggregate the logs in a central machine:
 ## Process - 1: Without a local logging agent
-what is 
+First we have to know how logging works. So basically in our system
