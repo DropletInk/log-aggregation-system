@@ -124,7 +124,7 @@ Cons:
 
 . Docker blocks if syslog is slow 
 
- ## 4. fluentd (collector-friendly): 
+ ### 4. fluentd (collector-friendly): 
  
  A log aggregation and forwarding platform, Written in Ruby, heavy, powerful, extremely flexible 
 
