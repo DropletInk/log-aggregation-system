@@ -1,4 +1,9 @@
-## Aggregate logs from different microservices running in different containers in different machines into a central machine's container where we can manage the logs and send the logs somewhere else(another machine, LOKI etc.)
+# Aggregate logs from different microservices into a central machine
+
+## Objective
+
+Aggregate logs from different microservices running in different containers in different machines into a central machine's container where we can manage the logs and send the logs somewhere else(another machine, LOKI etc.)
+
  **What are the logs?** 
 
 Logs are automatically generated files that record chronological events, activities, and messages occurring within an operating system, application, or network device. They are like a “digital logbook” that stores timestamps, user actions, system errors, and security events for troubleshooting, debugging, and compliance. 
