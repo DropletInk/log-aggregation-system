@@ -1,0 +1,9 @@
+services:
+ service-e:
+  build: .
+  container_name: service-e
+  logging:
+    driver: "syslog"
+    options:
+      syslog-address: "tcp://192.168.1.19:514"
+      tag: "service-e"
