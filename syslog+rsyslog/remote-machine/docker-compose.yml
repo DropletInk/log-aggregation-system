@@ -1,0 +1,10 @@
+services:
+  central-rsyslog:
+    build: ./rsyslog
+    container_name: remote-rsyslog
+    ports:
+      - "5144:5144/udp"
+      - "5144:5144/tcp"
+    volumes:
+      - ./remote-logs:/var/log/remote
+    restart: always
