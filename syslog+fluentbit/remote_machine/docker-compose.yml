@@ -1,0 +1,9 @@
+services:
+  fluent-bit:
+    image: fluent/fluent-bit:2.2
+    container_name: fluent-bit-remote
+    ports:
+      - "5140:5140"
+    volumes:
+      - ./fluent-bit.conf:/fluent-bit/etc/fluent-bit.conf
+    restart: always

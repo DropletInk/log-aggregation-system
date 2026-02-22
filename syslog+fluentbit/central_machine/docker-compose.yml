@@ -1,0 +1,9 @@
+services:
+  fluent-bit:
+    image: fluent/fluent-bit:2.2
+    container_name: fluent-bit-central
+    network_mode: host
+    volumes:
+      - ./fluent-bit.conf:/fluent-bit/etc/fluent-bit.conf
+    command: -c /fluent-bit/etc/fluent-bit.conf
+    restart: always
