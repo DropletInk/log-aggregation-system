@@ -77,9 +77,7 @@ For Machine-B code and configuration with the step by step process go to this [L
 Machine-C receives logs from A & B, then forwards to Machine-D.
 ### Folder structure
 ```
-central-log/
-│
-├── fluent-bit/
+central-machine/
     ├── fluent-bit.conf
     └── docker-compose.yml
 ```
@@ -140,9 +138,7 @@ Machine-D is the final log destination.
 
 ### Folder Structure
 ```
-central-log/
-│
-├── fluent-bit/
+remote-machine/
     ├── fluent-bit.conf
     └── docker-compose.yml
 ```
